@@ -1,0 +1,44 @@
+#page-header{
+    background-image: url(assets/shop/background.jpg);
+    width:100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    flex-direction:column;
+    padding: 14px;
+    margin-top: 2%;
+
+}
+.title{
+    margin-top: -17%;
+    font-size: 40px;
+    font-weight: 700;
+}
+#pagination{
+    justify-content: center;
+    text-align: center;   
+}
+
+#pagination a{
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: #7caca0;;
+    color: white;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+    transition:0.3s;
+}
+
+#pagination :hover{
+    color: #ff0000;
+    
+}
+

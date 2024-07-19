@@ -1,0 +1,15 @@
+.container{
+    width: 600px;
+    margin: 100px auto;
+    padding: 50px;
+    box-shadow:rgba(154, 154, 182, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    border:1px solid red;
+}
+
+.form-group{
+    margin-left: 25%;
+    margin-bottom: 30px;
+    width: 50%;
+}
+

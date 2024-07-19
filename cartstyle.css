@@ -1,0 +1,157 @@
+#page-header21{
+    background-image: url(assets/shop/cart.jpg);
+    width:100%;
+    height:50vh;
+    background-size: cover;
+    padding: 54px;
+
+}
+.title11{
+    margin-top:1%;
+    font-size: 100px;
+    font-weight: 600;
+    font-family:a;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+}
+
+.title-p{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(43, 194, 174);
+    text-align: center;
+    justify-content: center;
+}
+#cart{
+    overflow-x: auto;
+}
+
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+
+}
+
+#cart table img{
+    width:30%;
+}
+
+#cart table td:nth-child(1){
+     width: 200px;
+     text-align: center;
+
+}
+
+#cart table td:nth-child(2){
+    width: 250px;
+    text-align: center;
+
+}
+
+#cart table td:nth-child(3){
+    width: 350px;
+    text-align: center;
+
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6),
+#cart table td:nth-child(7){
+    width: 230px;
+    text-align: center;
+
+}
+
+#cart table td:nth-child(5) input{
+    width: 50px;
+    padding: 10px 5px 10px 15px;
+    border:none;
+
+}
+
+#cart  table thead{
+    border: 1px solid rgb(0, 225, 255);
+    border-left: none;
+    border-right: none;
+}
+
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+#cart table tbody tr td{
+    padding-top: 15px; 
+
+}
+#cart table tbody tr td:hover{
+   color:  red;
+}
+
+#cart table tbody  td{
+    font-size: 13px;
+}
+
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(240, 248, 255, 0.521);
+}
+
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3,
+#subtotal h3{
+    padding-bottom: 15px;
+}
+
+#coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+#coupon button{
+    width: 30%;
+    height: 5vh;
+}
+
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
+
+#subtotal button{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
